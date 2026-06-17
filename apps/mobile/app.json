@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "CryptoUni",
+    "slug": "cryptouni",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0b1020"
+    },
+    "ios": { "supportsTablet": true },
+    "android": {},
+    "web": { "bundler": "metro" }
+  }
+}

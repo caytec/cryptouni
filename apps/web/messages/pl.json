@@ -1,0 +1,71 @@
+{
+  "brand": "CryptoUni",
+  "tagline": "Nauka kryptowalut od podstaw do poziomu zaawansowanego",
+  "nav": {
+    "courses": "Kursy",
+    "simulator": "Symulator",
+    "profile": "Profil"
+  },
+  "landing": {
+    "heroTitle": "Zrozum krypto. Zarabiaj świadomie. Nie daj się oszukać.",
+    "heroSubtitle": "Niezależna polska akademia kryptowalut — od pierwszej transakcji po zaawansowane strategie. Z naciskiem na realia: co jest prawdziwe, a co scamem.",
+    "ctaStart": "Zacznij za darmo",
+    "ctaCourses": "Zobacz kursy",
+    "feature1Title": "Ścieżka od zera",
+    "feature1Body": "Spójny program: podstawy, DeFi, analiza i zarządzanie ryzykiem — krok po kroku.",
+    "feature2Title": "Antyscam",
+    "feature2Body": "Naucz się rozpoznawać oszustwa, zanim stracisz pieniądze. Realne case studies.",
+    "feature3Title": "Symulator bez ryzyka",
+    "feature3Body": "Ćwicz na realnych danych rynkowych, ale wirtualnych środkach. Zero ryzyka.",
+    "disclaimer": "To nie jest porada inwestycyjna (NFA / DYOR). Krypto wiąże się z ryzykiem straty kapitału."
+  },
+  "courses": {
+    "title": "Kursy",
+    "subtitle": "Wybierz poziom i ucz się we własnym tempie.",
+    "level": "Poziom",
+    "free": "Darmowy",
+    "premium": "Premium",
+    "lessons": "lekcji",
+    "open": "Otwórz kurs"
+  },
+  "lesson": {
+    "minutes": "min czytania",
+    "startQuiz": "Rozwiąż quiz",
+    "backToCourse": "Wróć do kursu",
+    "completed": "Lekcja ukończona"
+  },
+  "quiz": {
+    "title": "Quiz",
+    "check": "Sprawdź odpowiedź",
+    "next": "Następne pytanie",
+    "finish": "Zakończ quiz",
+    "correct": "Dobrze!",
+    "incorrect": "Niepoprawnie",
+    "yourScore": "Twój wynik",
+    "passed": "Zaliczone! Zdobywasz",
+    "failed": "Spróbuj ponownie, by zaliczyć quiz.",
+    "retry": "Spróbuj ponownie",
+    "xp": "XP"
+  },
+  "profile": {
+    "title": "Twój profil",
+    "level": "Poziom",
+    "xp": "XP",
+    "streak": "Seria dni",
+    "completion": "Ukończenie kursów",
+    "badges": "Odznaki",
+    "noBadges": "Ukończ pierwszą lekcję, by zdobyć odznakę.",
+    "reset": "Zresetuj postęp"
+  },
+  "simulator": {
+    "title": "Symulator (paper trading)",
+    "subtitle": "Aktualne ceny rynkowe. Pełny symulator portfela na wirtualnych środkach pojawi się w kolejnej wersji.",
+    "price": "Cena",
+    "change24h": "Zmiana 24h",
+    "loading": "Wczytywanie cen…",
+    "error": "Nie udało się pobrać cen. Spróbuj później."
+  },
+  "footer": {
+    "rights": "Projekt edukacyjny. To nie jest porada inwestycyjna."
+  }
+}
