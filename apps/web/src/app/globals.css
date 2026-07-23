@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ink text-slate-100 antialiased;
+}
+
+/* Proste style dla treści lekcji renderowanej z Markdown. */
+.prose-lesson h1 {
+  @apply text-3xl font-bold mt-2 mb-4 text-white;
+}
+.prose-lesson h2 {
+  @apply text-xl font-semibold mt-6 mb-2 text-brand-light;
+}
+.prose-lesson p {
+  @apply my-3 leading-relaxed text-slate-200;
+}
+.prose-lesson ul {
+  @apply list-disc pl-6 my-3 space-y-1 text-slate-200;
+}
+.prose-lesson ol {
+  @apply list-decimal pl-6 my-3 space-y-1 text-slate-200;
+}
+.prose-lesson strong {
+  @apply text-white font-semibold;
+}
+.prose-lesson blockquote {
+  @apply border-l-4 border-brand pl-4 my-4 italic text-slate-300;
+}
+.prose-lesson code {
+  @apply bg-slate-800 px-1.5 py-0.5 rounded text-brand-light text-sm;
+}

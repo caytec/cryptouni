@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Kroko",
+    "slug": "kroko",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0b1020"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSMotionUsageDescription": "Kroko liczy Twoje kroki, aby naliczać nagrody KROK za aktywność."
+      }
+    },
+    "android": {
+      "permissions": ["android.permission.ACTIVITY_RECOGNITION"]
+    },
+    "web": { "bundler": "metro" },
+    "plugins": [
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Kroko liczy Twoje kroki, aby naliczać nagrody KROK za aktywność."
+        }
+      ]
+    ]
+  }
+}
