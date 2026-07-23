@@ -1,0 +1,22 @@
+{
+  "name": "@cryptouni/move-core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "echo \"(move-core) no lint configured\"",
+    "typecheck": "tsc --noEmit",
+    "build": "echo \"(move-core) source-only package\"",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cryptouni/config": "workspace:*",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}

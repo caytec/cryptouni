@@ -1,0 +1,30 @@
+{
+  "name": "@cryptouni/kroko",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "lint": "echo \"(kroko) lint via expo lint when configured\"",
+    "typecheck": "tsc --noEmit",
+    "build": "echo \"(kroko) use 'expo export' for web/native bundles\"",
+    "test": "echo \"(kroko) logic tested in @cryptouni/move-core\""
+  },
+  "dependencies": {
+    "@cryptouni/move-core": "workspace:*",
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "expo": "~51.0.0",
+    "expo-sensors": "~13.0.9",
+    "expo-status-bar": "~1.12.1",
+    "react": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-svg": "15.2.0"
+  },
+  "devDependencies": {
+    "@cryptouni/config": "workspace:*",
+    "@types/react": "~18.2.79",
+    "typescript": "^5.5.4"
+  }
+}
